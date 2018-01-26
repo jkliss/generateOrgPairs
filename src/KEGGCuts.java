@@ -30,11 +30,6 @@ public class KEGGCuts {
             System.out.println(Integer.toString(position) + " " + KEGGName);
             ex.getStackTrace();
         }
-        if(KEGGName.contains("bmaz")){
-            System.out.println(KEGGName);
-            System.out.println(getElementsAsString());
-        }
-
     }
 
     public boolean doubleEntry(int position, String KEGGName){
@@ -47,6 +42,7 @@ public class KEGGCuts {
                         elements[i] = sub_elements.get(k) + "|";
                     }
                     blacklist += KEGGName;
+                    sub_elements = null;
                     return true;
                 }
                 //System.out.println("Eliminating " + KEGGName + " from " + Integer.toString(i) + " Str " + elements[i] + " bc insert to " + Integer.toString(position-1));
