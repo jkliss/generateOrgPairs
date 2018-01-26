@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="generateOrgPairs-master">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/generateOrgPairs_master_jar/generateOrgPairs-master.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
